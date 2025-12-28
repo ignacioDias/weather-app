@@ -74,3 +74,6 @@ Wind speed: 15.2
     Forecast for multiple days
     Refactor into service classes
     Convert to a REST API or Spring Boot project
+
+### Original project:
+    https://roadmap.sh/projects/weather-api-wrapper-service
