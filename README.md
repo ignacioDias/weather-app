@@ -46,11 +46,12 @@ The main logic lives in `WeatherAPIData.java`
 - Java 8 or higher
 - `json-simple` library available on the classpath
 
-### Compile
+### Compile and Run
 
 ```bash
-javac -cp json-simple-1.1.1.jar WeatherAPIData.java
-java -cp .:json-simple-1.1.1.jar WeatherAPIData
+mvn clean compile
+mvn exec:java
+```
 
 ### Example Output
 
